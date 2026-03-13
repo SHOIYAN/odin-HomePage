@@ -66,7 +66,7 @@ p {
   width: 90%;
 }
 
-.about-heading,.myworkheading {
+.about-heading,.myworkheading, .contactheading {
   font-family: "Playfair Display", serif;
   font-weight: 400;
   margin-bottom: 1rem;
@@ -162,3 +162,59 @@ p {
   padding: 0 1.4rem 2.5rem 1.4rem;
   color: rgb(61, 61, 61);
 }
+
+
+/* contact section */
+
+.contact{
+  background-color: #2a9db5;
+  width: 100%;
+}
+
+.contact-container{
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  color: white;
+  z-index: 1;
+}
+
+.contact-container p {
+  text-align: left;
+  font-size: 1.1rem;
+}
+
+#contactmessage {
+  word-spacing: 2px;
+  font-size: 1.4rem;
+  font-family: "Lora", serif;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.contactaddress{
+  margin-bottom: 2rem;
+}
+
+.contactemail{
+  margin-bottom: 2rem;
+}
+
+.contactmedia a{
+  text-decoration: none;
+  margin-bottom: 4rem;
+}
+.contactmedia a i{
+  font-size: 3rem;
+}
+
+.contactmedia{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+
+
+
