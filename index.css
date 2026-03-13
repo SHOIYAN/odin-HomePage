@@ -1,4 +1,5 @@
-@import url(https://fonts.bunny.net/css?family=playfair-display:400);
+@import url(https://fonts.bunny.net/css?family=playfair-display:400,600);
+@import url(https://fonts.bunny.net/css?family=lora:400|playfair-display:400);
 
 * {
   margin: 0;
@@ -51,5 +52,54 @@ h1 {
   font-size: clamp(2rem, 8vw, 3.5rem);
 }
 p {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
+
+/* About Section */
+.about {
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.about-container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.about-heading{
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  font-size: 2.6rem;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.about-content {
+ word-spacing: 2px;
+ font-family: 'Lora', serif;
+ font-weight: 500;
+ color: rgb(61, 61, 61);
+}
+
+.about-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 0.7rem;
+}
+
+.about-icons a{
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.about-icons a:active {
+  transform: translateY(3px);
+}
+
+.socialicon {
+  font-size: 1.5rem;
+}
+
