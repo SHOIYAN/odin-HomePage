@@ -1,5 +1,5 @@
 @import url(https://fonts.bunny.net/css?family=playfair-display:400,600);
-@import url(https://fonts.bunny.net/css?family=lora:400|playfair-display:400);
+@import url(https://fonts.bunny.net/css?family=lora:400,500);
 
 * {
   margin: 0;
@@ -66,7 +66,7 @@ p {
   width: 90%;
 }
 
-.about-heading {
+.about-heading,.myworkheading {
   font-family: "Playfair Display", serif;
   font-weight: 400;
   margin-bottom: 1rem;
@@ -104,3 +104,61 @@ p {
 }
 
 /* My work section */
+
+.mywork {
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.project {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4/4;
+  object-fit: cover;
+}
+
+.projectheading {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+  padding: 0 2rem;
+}
+
+.projectname{
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+
+.projecticons a{
+  text-decoration: none;
+}
+
+.projecticons {
+  display: flex;
+  gap: 1rem;
+}
+
+.external-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.projectdescription{
+  font-family: "Lora", serif;
+  text-align: left;
+  padding: 0 1.4rem 2.5rem 1.4rem;
+  color: rgb(61, 61, 61);
+}
