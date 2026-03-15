@@ -278,3 +278,39 @@ p {
   }
   
 }
+
+@media (min-width: 1000px) {
+ .project-container{
+  grid-template-columns: 1fr 1fr 1fr;
+ }
+ .hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 46%;
+  background-color: #2a9db5;
+  transform: skewY(0deg);
+  transform-origin: top left;
+  z-index: 0;
+} 
+ .hero-name {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(2.5rem, 5vw, 5rem);
+  margin: 4rem;
+  position: absolute;
+  color: white;
+  z-index: 2;
+}
+.hero-content{
+  width: 90%;
+  margin: 5% auto;
+  z-index: 1;
+}
+.hero-image {
+  display: block;
+  width: 60%;
+  }
+
+
+}
